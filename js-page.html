@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reboot.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <title>About JS</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark px-2 sticky-top shadow mb-2">
+            <div class="container">
+              <a class="navbar-brand mb-4" href="#"><img class="img-navbar" src="logo.png" alt="Logo photo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ps-5" id="navbarColor02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg">
+                  <li class="nav-item">
+                    <a class="nav-link active mt-xl-2 mt-lg-2 px-3" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex search-box" role="search">
+                  <input id="myInput" onkeyup="myFunction()" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <div class="py-4">
+        <section class="container">
+            <div class="row align-items-center pb-5">
+                <div class="col-md-6 bg-2 pb-4 pt-3">
+                    <h2 class="display-4 mb-4 HPT">About <span class="text-warning display-3">JavaScript</span></h2>
+                    <p class="lead text-muted mb-4 HPT">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis doloremque recusandae quos doloribus perspiciatis laborum, tempora minima, ad molestiae aut obcaecati deserunt eveniet earum odio?</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="js.png" class="img-fluid-2" alt="photo of 2">
+                </div>
+            </div>
+            <hr style="color: #7a0f73 ;">
+        </section>
+    </div>
+
+    
+
+    <div class="py-2">
+        <section class="container">
+            <h2 class="display-5 mb-4 HT">What is <span class="text-warning">JavaScript? </span></h2>
+            <p class="TP">JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.
+                JavaScript runs on the client side of the web, which can be used to design / program how the web pages behave on the occurrence of an event. JavaScript is an easy to learn and also powerful scripting language, widely used for controlling web page behavior
+                Contrary to popular misconception, JavaScript is not "Interpreted Java". In a nutshell, JavaScript is a dynamic scripting language supporting prototype based object construction. The basic syntax is intentionally similar to both Java and C++ to reduce the number of new concepts required to learn the language. Language constructs, such as if statements, for and while loops, and switch and try ... catch blocks function the same as in these languages (or nearly so).
+                JavaScript can function as both a procedural and an object oriented language. Objects are created programmatically in JavaScript, by attaching methods and properties to otherwise empty objects at run time, as opposed to the syntactic class definitions common in compiled languages like C++ and Java. Once an object has been constructed it can be used as a blueprint (or prototype) for creating similar objects.
+                JavaScript's dynamic capabilities include runtime object construction, variable parameter lists, function variables, dynamic script creation (via eval), object introspection (via for ... in), and source code recovery (JavaScript programs can decompile function bodies back into their source text).
+                For a more in depth discussion of JavaScript programming follow the JavaScript resources links below.</p>
+        </section>
+    </div>
+
+    <div class="py-2">
+        <section class="container">
+            <h2 class="display-5 mb-4 HT">What <span class="text-warning">JavaScript</span> implementations are available?</h2>
+            <p class="TP">The Mozilla project provides two JavaScript implementations. The first ever JavaScript was created by Brendan Eich at Netscape, and has since been updated to conform to ECMA-262 Edition 5 and later versions. This engine, code named SpiderMonkey, is implemented in C/C++. The Rhino engine, created primarily by Norris Boyd (also at Netscape) is a JavaScript implementation written in Java. Like SpiderMonkey, Rhino is ECMA-262 Edition 5 compli
+                Several major runtime optimizations such as TraceMonkey (Firefox 3.5), JägerMonkey (Firefox 4) and IonMonkey were added to the SpiderMonkey JavaScript engine over time. Work is always ongoing to improve JavaScript execution performance.
+                Besides the above implementations, there are other popular JavaScript engines such as:-
+                Google's V8, which is used in the Google Chrome browser and recent versions of Opera browser. This is also the engine used by Node.js.
+                The JavaScriptCore (SquirrelFish/Nitro) used in some WebKit browsers such as Apple Safari.
+                Carakan in old versions of Opera.
+                The Chakra engine used in Internet Explorer (although the language it implements is formally called "JScript" in order to avoid trademark issues).
+                Each of Mozilla's JavaScript engines expose a public API which application developers can use to integrate JavaScript into their software. By far, the most common host environment for JavaScript is web browsers. Web browsers typically use the public API to create host objects responsible for reflecting the DOM into JavaScript.
+                Another common application for JavaScript is as a (Web) server side scripting language. A JavaScript web server would expose host objects representing a HTTP request and response objects, which could then be manipulated by a JavaScript program to dynamically generate web pages. Node.js is a popular example of this.</p>
+        </section>
+    </div>
+
+
+             <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>]

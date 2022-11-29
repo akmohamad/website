@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reboot.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <title>About JS</title>
+</head>
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark px-2 sticky-top shadow mb-2">
+            <div class="container">
+              <a class="navbar-brand mb-4" href="#"><img class="img-navbar" src="logo.png" alt="Logo photo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse ps-5" id="navbarColor02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg">
+                  <li class="nav-item">
+                    <a class="nav-link active mt-xl-2 mt-lg-2 px-3" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Features</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mt-xl-2 mt-lg-2 px-3" href="#">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex search-box" role="search">
+                  <input id="myInput" onkeyup="myFunction()" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
+    </div>
+    
+
+    <div class="py-4">
+        <section class="container">
+            <div class="row align-items-center pb-5">
+                <div class="col-md-6 bg-2 pb-4 pt-3">
+                    <h2 class="display-4 mb-4 HPT">About <span class="TER display-3">React</span></h2>
+                    <p class="lead text-muted mb-4 HPT">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis doloremque recusandae quos doloribus perspiciatis laborum, tempora minima, ad molestiae aut obcaecati deserunt eveniet earum odio?</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="R.png" class="img-fluid-3" alt="photo of 2">
+                </div>
+            </div>
+            <hr style="color: #7a0f73 ;">
+        </section>
+    </div>
+
+    
+
+    <div class="py-2">
+        <section class="container">
+            <h2 class="display-5 mb-4 HT">What is <span class="TER">React? </span></h2>
+            <p class="TP">In this article we will learn what ReactJs is and why we should use it instead of other JavaScript frameworks like Angular.
+              What is React JS?
+              React (reactjs) is basically an open-source JavaScript library for creating user interfaces for single page applications. This library is used to manage the View layer for the web. React also has this possibility. It allows us to create reusable UI components. React was originally created by Jordan Walke, one of Facebook's senior engineers. React was first used in Facebook in 2011 and then in 2012 used on Instagram.
+              React allows developers to create very large web applications that can change the date without reloading the page. The most important goals of React can be considered simplicity, speed and scalability. The main focus of React is on It is on the user interface and only corresponds to the View layer in the MVC architecture. This library can be combined and used with other JavaScript libraries and frameworks such as Angular.</p>
+        </section>
+    </div>
+
+    <div class="py-2">
+        <section class="container">
+            <h2 class="display-5 mb-4 HT">What are the features of <span class="TER">React</span></h2>
+            <p class="TP">Let's take a look at the important features of React:
+
+              JSX
+              
+              In React, instead of using regular JavaScript, JSX is used for templating. jsx is a JavaScript format for creating HTML DOMs in the form of a component.
+              
+              React Native
+              
+              It is a JavaScript framework for developing native mobile applications for two operating systems, Android and iOS, which was introduced in 2015. This framework is based on the JavaScript language and the React library. That is, by mastering React, you can learn React Native. Be far ahead of others. Of course, note that there are fundamental differences between this library and the framework, and to understand these differences, I suggest you read the article on the main differences between React and React Native.
+              
+              Single-Way data flow
+              
+              In React, a set of immutable values ​​between components are passed to HTML tags as properties. Components cannot directly change any properties, but they can pass them to the call back function and help them make the changes. This process is completely with "properties flow down; actions flow up" is known.
+              
+              Virtual Document Object Model
+              
+              React creates an in-memory cache structure. In this structure, if a change has occurred, it updates the DOM. This feature enables the programmer, while changes are made in a wtpi, only the component that has changed will be rerendered. Virtual DOM, like the DOM, is a tree of nodes. which includes elements and their attributes and content as objects. The renderer() method creates a tree of React components and changes in each component cause this node to be updated.</p>
+        </section>
+    </div>
+    
+
+
+
+             <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>]
+
+
+
+div
